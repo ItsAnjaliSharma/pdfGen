@@ -1,0 +1,67 @@
+.App {
+  margin: auto;
+}
+
+.form{
+  margin-top: 10vh;
+  height: 10vh;
+  width: 30vw;
+  
+}
+
+.Name{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.Name > label{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.Name > input{
+  display: block;
+  width: 90vw;
+}
+
+
+.Name > select{
+  display: block;
+  width: 90vw;
+  height: 4vh;
+}
+
+.form > button{
+  display: inline;
+  flex-direction: row;
+  margin: 10px 6px;
+
+}
+
+.Btn1{
+  display: flex;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  width: 10vw;
+  margin:10px;
+  height: 25px;
+  text-align: center;
+}
+
+
+.Btn2{
+  display: flex;
+  text-align: center;
+  color: white;
+  background-color: green;
+  padding: 5px;
+  width: 10vw;
+  height: 25px;
+  margin: 10px;
+}
+
+
